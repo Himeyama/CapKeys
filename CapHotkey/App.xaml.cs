@@ -15,10 +15,6 @@ namespace CapHotkey
 
             mainWindow = new MainWindow();
             mainWindow.Activate();
-            
-            // capKeyBoard.UnHook();
         }
-
-        
     }
 }

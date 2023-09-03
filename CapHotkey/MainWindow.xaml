@@ -7,9 +7,6 @@
     xmlns:local="using:CapHotkey"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <Window.SystemBackdrop>
-        <MicaBackdrop Kind="BaseAlt"/>
-    </Window.SystemBackdrop>
     <Grid
         RowDefinitions="40, *, 24" x:Name="Window">
         <Grid Grid.Row="0">
@@ -39,9 +36,11 @@
                 </Grid>
             </Grid>
         </Grid>
-        
+
         <Grid Grid.Row="1">
-            <TextBlock Text="text" x:Name="Text" x:FieldModifier="Public" FontSize="64" Margin="16, 16, 16, 16" />
+            <StackPanel>
+                <TextBlock Text="KEY" x:Name="KeyLog" x:FieldModifier="Public" FontSize="64" Margin="16, 16, 16, 16" />
+            </StackPanel>
         </Grid>
 
         <Grid Grid.Row="2">

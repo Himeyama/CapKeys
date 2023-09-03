@@ -5,10 +5,10 @@ namespace CapHotkey
 {
     public class KeyEventArgs
     {
-        public int keyCode { get; }
+        public int KeyCode { get; }
         public KeyEventArgs(int keyCode)
         {
-            this.keyCode = keyCode;
+            this.KeyCode = keyCode;
         }
     }
 
@@ -32,7 +32,9 @@ namespace CapHotkey
 
     public class CapKeyBoard
     {
-        MainWindow? mainWindow;
+        MainWindow? mainWindow { get; set; }
+        int port { get; set; }
+
         public IntPtr hook = IntPtr.Zero;
         const int WH_KEYBOARD_LL = 0x000D;
         const int WM_KEYDOWN = 0x0100;
@@ -63,24 +65,46 @@ namespace CapHotkey
         [DllImport("user32.dll")]
         private static extern bool UnhookWindowsHookEx(IntPtr hhk);
 
-        static public CapKeyBoard Init(MainWindow mainWindow)
+        public static async Task<CapKeyBoard> Init(MainWindow mainWindow, int port)
         {
             CapKeyBoard capKeyBoard = new();
             capKeyBoard.KeyDownEvent += capKeyBoard.KeyDown;
             capKeyBoard.KeyUpEvent += capKeyBoard.KeyUp;
             capKeyBoard.Hook();
             capKeyBoard.mainWindow = mainWindow;
+            capKeyBoard.port = port;
             return capKeyBoard;
+        }
+
+        async void KeyPost(int keyCode)
+        {
+            HttpClient client = new();
+            try
+            {
+                using HttpResponseMessage response = await client.GetAsync($"http://localhost:{port}?code={keyCode}");
+                response.EnsureSuccessStatusCode();
+                //string body = await response.Content.ReadAsStringAsync();
+                Debug.WriteLine("OK");
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
         }
 
         public void KeyDown(object sender, KeyEventArgs e)
         {
-            mainWindow!.Text.Text = $"{e.keyCode}";
+            KeyPost(e.KeyCode);
+            //Debug.WriteLine(e.keyCode);
+            //mainWindow!.VMKey.TextData = $"{e.keyCode}";
+            //mainWindow!.Text.Text = $"{e.keyCode}";
         }
 
         public void KeyUp(object sender, KeyEventArgs e)
         {
-            mainWindow!.Text.Text = $"{e.keyCode}";
+            //Debug.WriteLine(e.keyCode);
+            //mainWindow!.VMKey.TextData = $"{e.keyCode}";
+            //mainWindow!.Text.Text = $"{e.keyCode}";
         }
 
         public void Close()
@@ -138,7 +162,5 @@ namespace CapHotkey
         {
             KeyUpEvent?.Invoke(this, new KeyEventArgs(keyCode));
         }
-
-
     }
 }
