@@ -1,0 +1,150 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(MainWindow mainWindow, String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 62keyboardHook.Up: All keys: D1. Current key: D1System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: D1. Current key: D1System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: D2. Current key: D2System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: D2. Current key: D2System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: D3. Current key: D3System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: D3. Current key: D3System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: S. Current key: SSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: S. Current key: SSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: D. Current key: DSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: D+F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: D+F. Current key: DSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: E+F. Current key: ESystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: E+F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: E. Current key: ESystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77keyboardHook.Up: All keys: F. Current key: FSystem.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_1(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 77
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CapHotkey.MainWindow.Key(String key) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 35
+   at CapHotkey.MainWindow.<KeyHook>b__3_0(Object _, KeyboardEventArgs args) in C:\Users\minan\source\repos\CapHotkey\CapHotkey\MainWindow.xaml.cs:line 63

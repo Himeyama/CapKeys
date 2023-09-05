@@ -6,6 +6,12 @@ using System.Net.Sockets;
 using System.Text;
 using H.Hooks;
 using System.IO;
+using Windows.Graphics;
+using Windows.Storage;
+using Windows.Storage.Pickers;
+using WinRT.Interop;
+using Microsoft.UI.Windowing;
+using Microsoft.UI;
 
 namespace CapHotkey
 {
@@ -19,10 +25,19 @@ namespace CapHotkey
             ExtendsContentIntoTitleBar = true;
             SetTitleBar(AppTitleBar);
 
+            setWindowSize(400, 400);
 
             KeyHook();
             // while (Console.ReadKey(true).Key != ConsoleKey.Escape)
             // {
+        }
+
+        void setWindowSize(int width, int height)
+        {
+            IntPtr hWnd = WindowNative.GetWindowHandle(this);
+            WindowId myWndId = Win32Interop.GetWindowIdFromWindow(hWnd);
+            AppWindow appWindow = AppWindow.GetFromWindowId(myWndId);
+            appWindow.Resize(new SizeInt32(width, height));
         }
 
         void ClickExit(object sender, RoutedEventArgs e)
@@ -30,33 +45,50 @@ namespace CapHotkey
             Close();
         }
 
-        int KeyHook(){
-            var keyboardHook = new LowLevelKeyboardHook
+        public void Key(string key)
+        {
+            if (DispatcherQueue.HasThreadAccess)
             {
-                IsCapsLock = true,
-                IsLeftRightGranularity = true,
-                IsExtendedMode = true,
-                HandleModifierKeys = true,
-            };
+                KeyLog.Text = key;
+            }
+            else
+            {
+                bool isQueued = this.DispatcherQueue.TryEnqueue(
+                    Microsoft.UI.Dispatching.DispatcherQueuePriority.Normal,
+                    () => KeyLog.Text = key);
+            }
+        }
+
+        void KeyHook()
+        {
+            LowLevelKeyboardHook keyboardHook = new();
             keyboardHook.Up += (_, args) =>
             {
-                string log = $"{nameof(keyboardHook)}.{nameof(keyboardHook.Up)}: All keys: {args.Keys}. Current key: {args.CurrentKey}";
-                // File.WriteAllText("log", log);
-                KeyLog.Text = log;
+                string log = $"{args.CurrentKey}";
+                try
+                {
+                    Key(log);
+                }
+                catch (Exception ex)
+                {
+                    File.AppendAllText("log", ex.ToString() + "\n");
+                }
             };
             keyboardHook.Down += (_, args) =>
             {
-                string log = $"{nameof(keyboardHook)}.{nameof(keyboardHook.Up)}: All keys: {args.Keys}. Current key: {args.CurrentKey}";
-                // File.WriteAllText("log", log);
-                // KeyLog.Text = log;
+                string log = $"{args.CurrentKey}";
+
+                try
+                {
+                    // File.AppendAllText("log", log);
+                    Key(log);
+                }
+                catch (Exception ex)
+                {
+                    File.AppendAllText("log", ex.ToString() + "\n");
+                }
             };
             keyboardHook.Start();
-            return 0;
-        }
-
-        void KeyInput(string key)
-        {
-            KeyLog.Text = key;
         }
     }
 }

@@ -8,29 +8,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid
-        RowDefinitions="40, *, 24" x:Name="Window">
+        RowDefinitions="40, *" x:Name="Window">
         <Grid Grid.Row="0">
-            <Grid ColumnDefinitions="Auto, *">
-                <MenuBar Grid.Column="0">
-                    <MenuBarItem Title="File" x:Uid="File">
-                        <MenuFlyoutItem Text="Open..." x:Uid="Open" x:Name="Open">
-                            <MenuFlyoutItem.KeyboardAccelerators>
-                                <KeyboardAccelerator Modifiers="Control" Key="O"/>
-                            </MenuFlyoutItem.KeyboardAccelerators>
-                        </MenuFlyoutItem>
-                        <MenuFlyoutSeparator />
-                        <MenuFlyoutItem Text="Exit" x:Uid="Exit" Click="ClickExit" />
-                    </MenuBarItem>
-
-                    <MenuBarItem Title="Help" x:Uid="Help">
-                        <MenuFlyoutItem Text="About" x:Uid="About" />
-                    </MenuBarItem>
-                </MenuBar>
-
-                <Grid x:Name="AppTitleBar" Grid.Column="1" >
+            <Grid ColumnDefinitions="*">
+                <Grid x:Name="AppTitleBar" Grid.Column="0" >
                     <TextBlock x:Name="AppTitleTextBlock" 
                         x:Uid="AppTitleText"
-                        Text="AppTitle"
+                        Text=""
                         VerticalAlignment="Center"
                         HorizontalAlignment="Center" />
                 </Grid>
@@ -38,15 +22,9 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <StackPanel>
-                <TextBlock Text="KEY" x:Name="KeyLog" x:FieldModifier="Public" FontSize="64" Margin="16, 16, 16, 16" />
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock x:Name="KeyLog" x:FieldModifier="Public" FontSize="64" Margin="16, 16, 16, 16" />
             </StackPanel>
-        </Grid>
-
-        <Grid Grid.Row="2">
-            <Grid>
-                <TextBlock Grid.Column="0" Text="" x:Name="StatusBar" Margin="8, 0, 0, 0" FontSize="12" VerticalAlignment="Center" />
-            </Grid>
         </Grid>
     </Grid>
 </Window>
